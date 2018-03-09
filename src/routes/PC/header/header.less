@@ -1,0 +1,84 @@
+.pcHeader{
+    color: #999;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    height: 91px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #fff;
+    z-index: 1000;
+    box-shadow: 0 1px 2px rgba(153,153,153,.5);
+    .header_width{
+        width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        .party_width{
+            width: 582px;
+            img{
+                margin-left: 20px;
+            }
+        }
+        .logo{
+            width: 182px;
+            height: 70px;
+        }
+        .headerNav{
+            width: 476px;
+            line-height: 70px;
+            font-size: 14px;
+            a{
+                color: #999;
+                text-decoration: none;
+                padding-bottom: 34px;
+                margin: 0 8px;
+                font-size: 14px;
+                &:hover{
+                    color: #339966;
+                }
+            }
+            span{
+                color: #999;
+                text-decoration: none;
+                padding-bottom: 34px;
+                margin: 0 8px;
+                font-size: 14px;
+                &:hover{
+                    color: #339966;
+                }
+            }
+            .current{
+                color: #339966;
+            }
+        }
+        .partyImg{
+            margin: 21px 16px 0 0;
+        }
+        .navSearch{
+            flex: 1;
+            margin-top: 21px;
+            color: #ccc;
+            height: 30px;
+            position: relative;
+            a{
+                padding: 1px 6px;
+                height: 28px;
+                display: inline-block;
+                line-height: 28px;
+                background: #339966;
+                color: #fff;
+            }
+            
+        }
+
+    } 
+}
+
+
+@media screen and (max-width: 750px) and (min-width: 320px) {
+    .pcHeader{
+        position: relative;
+    }
+}
+
+
